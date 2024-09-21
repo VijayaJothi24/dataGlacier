@@ -20,4 +20,8 @@ def predict():
 
 
 if __name__ == "__main__":
+<<<<<<< HEAD
      flask_app.run(port=5000,debug=True)
+=======
+     flask_app.run(port=5000,debug=True)
+>>>>>>> 5c76f50 (initial commit)

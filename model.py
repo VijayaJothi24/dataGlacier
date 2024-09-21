@@ -22,7 +22,11 @@ stsc = StandardScaler()
 A_train =stsc.fit_transform(A_train)
 A_test =stsc.transform(A_test)
 
+<<<<<<< HEAD
 # Instantiate the model
+=======
+
+>>>>>>> 5c76f50 (initial commit)
 classifier_m = RandomForestClassifier()
 
 # fit the model
