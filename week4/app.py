@@ -17,7 +17,7 @@ def predict():
     features = [np.array(float_features)]
     prediction = model.predict(features)
    
-    return render_template('index.html', prediction_text = "The Toy Colour is {}".format(prediction))
+    return render_template('index.html', prediction_text = "The Tab Colour is {}".format(prediction))
 
 
 if __name__ == "__main__":

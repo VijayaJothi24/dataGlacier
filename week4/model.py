@@ -7,12 +7,12 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 
 # Load the csv file
-df = pd.read_csv("toy.csv")
+df = pd.read_csv("C:/Users/cours/OneDrive/Desktop/ML_deploy/week4/Prepareddataset.csv")
 print (df.head())
 df.head()
 
 A= df[["Length1Cm", "Width1Cm","Length2Cm", "Width2Cm"]]
-B= df ["Toy Color"]
+B= df ["Tab Color"]
 
 # Split the dataset into train and test
 A_train,A_test,B_train,B_test = train_test_split(A,B,test_size= 0.35,random_state= 49)
